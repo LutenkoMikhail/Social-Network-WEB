@@ -57,4 +57,5 @@ class FriendController extends Controller
             ->with('info',$info);
 
     }
+
 }

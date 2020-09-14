@@ -13,30 +13,8 @@ php artisan optimize:clear(при необходимости);
 
 Дамп базы данный Social_Network.sql;
 
-Стартовая страница для Web :
+Стартовая страница:
 public\index.php
-
-Список адресов с методами для API :
-Register: метод:GET, URL:http:{URL}/api/register
-Параметры запроса:
-    $data=  array(
-        'name'=> '123456789',
-        'email'=> '1@1',
-        'password'=> '123456789',
-    );
-Нет ошибок :    
-1-Ответ 200
-2-Тело ответа на запрос
-array [
-  "success" => true
-  "data" => array [
-  ]
-  "message" => "User register successfully."
-]
-Ошибка :    
-1-Ответ 404
-2-Тело ответа на запрос
-
 
 
 Тестовое задание
